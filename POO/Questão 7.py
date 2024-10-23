@@ -2,10 +2,10 @@
 def calcular_divida(divida):  #não esquece de colocar o propt pra adicionar o valor
     tabelaJuros = {
         1: 0,
-        3: 0.15,
-        6: 0.20,
-        9: 0.25,
-        12: 0.30
+        3: 0.10,
+        6: 0.15,
+        9: 0.20,
+        12: 0.25
     }
     print("| Dívida     | Juros   | Parcelas  | Valor de cada parcela|")
     print("___________________________________________________________") #acho que essa tabela dá pro gasto...
